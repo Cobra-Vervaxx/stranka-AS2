@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pytel.css">
+    <title>Login</title>
+</head>
+<body>   
+    <div class="login-card">
+        <h2>Login</h2>
+        <h3>Zadej své údaje</h3>
+
+        <form class="login-form">
+            <input id="jmeno" type="text" placeholder="Jméno">
+            <input id="heslo" type="password" placeholder="Heslo">
+            <a href="reset.html">Zapomenuté heslo</a>
+            <button id="login" onclick="location.href='education.html'" type="button">LOGIN</button>
+        </form>
+
+    </div>
+    <script>
+        const loginbtn=document.getElementById("login");
+        const jmeno=document.getElementById("jmeno");
+        const heslo=document.getElementById("heslo");
+
+        loginbtn.onclick=function()
+        {
+            if(jmeno.te=="cobra")
+            {
+                loginbtn.onclick=location.href=("education.hmtl");
+            }
+            else if(jmeno.inputMode!="cobra"&&heslo.inputMode!="topg")
+            loginbtn.onclick=location.href=("https://www.canva.com");
+
+
+
+
+
+        }
+    </script>
+
+</body>
+</html>

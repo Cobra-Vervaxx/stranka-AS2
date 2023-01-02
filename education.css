@@ -1,0 +1,158 @@
+.menu {
+    background: red;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1rem;
+    padding: 1rem 2rem;
+
+
+}
+
+.menu :first-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+body{
+background: black;
+
+
+}
+#nadpis
+{
+    text-align:center;
+    color:red;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#nadpis1
+{
+    text-align: center;
+    color:red;
+}
+#first
+{
+   text-align: center;
+ 
+}
+
+
+
+
+
+.first2
+{
+    text-align: center;
+}
+.first3
+{
+    text-align: right;
+}
+#second
+{
+    text-align: center;
+    color: red;
+}
+
+#home
+{
+    background-color: greenyellow;
+    border: none;
+}
+#kurzy
+{
+    background-color: greenyellow;
+    border: none;
+}
+
+#kontakty
+{
+    background-color: greenyellow;
+    border: none;
+}
+
+#faq
+{
+    background-color: greenyellow;
+    border: none;
+}
+
+#purpose
+{
+    background-color: greenyellow;
+    border: none;
+}
+#profesors
+{
+    background-color: greenyellow;
+    border: none;
+
+}
+
+#home:hover
+{
+cursor: pointer;
+}
+#kurzy:hover
+{
+ cursor: pointer;
+}
+#kontakty:hover
+{
+cursor: pointer;
+}
+
+#faq:hover
+{
+    cursor: pointer;
+}
+
+#purpose:hover
+{
+    cursor: pointer;
+}
+#profesors:hover
+{
+    cursor: pointer;
+}
+#third
+{
+    color:red;
+    text-align: center;
+}
+#fourth
+{
+    color:red;
+    text-align: center;
+}
+#fifth
+{
+    color: red;
+    text-align: center;
+}
+#fifth1
+{
+    text-align: left;
+}
+#fifth2
+{
+    text-align: left;
+}
+#fifth3
+{
+    text-align: left;
+}
+#fifth4
+{
+    text-align: left;
+}
+#fifth5
+{
+    text-align: left;
+}
+#fifth6
+{
+    text-align: left;
+}
